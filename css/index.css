@@ -1,0 +1,60 @@
+body{
+    background-color: grey;
+}
+
+#container{
+    text-align: center;
+}
+
+.title{
+    color: white;
+}
+
+form{
+    width:300px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#info{
+    display: inline-block;
+    text-align: left;
+    margin: 12px auto;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border:0px;
+    background-color: azure;
+    border-radius: 6px;
+    margin:0 3px;
+    font-size: 20px;
+    text-decoration: solid underline 2px;
+}
+
+#reset{
+    background-color: rgb(120, 167, 167);
+    color: black;
+}
+
+input{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+label{
+    font-weight: 500;
+    margin:12px auto;
+}
+
+#calcRule{
+    background-color: rgb(199, 183, 161);
+    border-radius: 6px;
+    margin-top: 6px;
+    padding:2px;
+}
