@@ -58,3 +58,14 @@ label{
     margin-top: 6px;
     padding:2px;
 }
+
+#result{
+    display:none;
+    /* 點擊再出現 */
+    width: 350px;
+    margin: 16px auto;
+    background-color: darkgray;
+    margin: 16px;
+    padding: 12px;
+    border-radius: 6px;
+}

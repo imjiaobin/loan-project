@@ -29,7 +29,7 @@
                 </select>年<br>
 
                 <label for="rate">-貸款利率</label>
-                <input type="number" name="rate" id="rate" value="2">%<br>
+                <input type="number" name="rate" id="rate" step="0.1" value="2">%<br>
 
                 <input type="checkbox" name="fee" id="fee" checked>手續費:NT5,000
                 <!-- checkbox為複選的,加上checked屬性代表預設是溝起來的 -->
@@ -47,6 +47,13 @@
             <!-- button的type如果寫submit/reset,是會將資料往後端送的 -->
             <!-- 如果只有在前端使用或測試程式碼,就設成button就是純按鍵功能 -->
         </form>
+
+        <div id="result" style="color: aliceblue;">
+            <h3>總還款金額:</h3>
+            <div class="totalAmount">205000</div>
+            <h3>總利息金額:</h3>
+            <div class="totalInterest">205000</div>
+        </div>
     </div>
     <script src="./js/index.js"></script>
 </body>
