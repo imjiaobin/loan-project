@@ -53,10 +53,11 @@ label{
 }
 
 #calcRule{
-    background-color: rgb(199, 183, 161);
-    border-radius: 6px;
+    background-color:   rgb(15, 133, 133);
+    /* border-radius: 10px; */
     margin-top: 6px;
     padding:2px;
+    color: aliceblue;
 }
 
 #result{
@@ -65,7 +66,31 @@ label{
     width: 350px;
     margin: 16px auto;
     background-color: darkgray;
-    margin: 16px;
     padding: 12px;
     border-radius: 6px;
+    text-align: center;
+}
+
+#table{
+    width:80%;
+    margin:0 auto;
+    border:black 1px solid;
+    border-collapse: collapse;
+    /* 讓表格的間距給關起來 */
+}
+
+tbody tr:nth-child(even){
+    background-color: darkturquoise;
+}
+
+thead th{
+    background-color: blanchedalmond;
+    border:1px solid #ddd;
+    font-size: 18px;
+}
+
+td{
+    border: 1px solid black;
+    padding:6px;
+    background-color: blanchedalmond;
 }
